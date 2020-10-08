@@ -1,0 +1,78 @@
+body{
+    background-color: lightyellow;
+    margin: 0;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    text-align: center;
+    font-size: 26pt;
+    margin-top: 50px;
+}
+
+p{
+    text-align: center;
+    font-size: 16pt;
+    max-width: 60%;
+    margin: 0 auto;
+    line-height: 150%;
+}
+
+.wrapper{
+    height:100vh;
+    overflow-x:hidden;
+    overflow-y:auto;
+    perspective: 2px;
+}
+
+.quote{
+    font-size: 20pt;
+}
+
+.img1, .img2, .img3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+.img1{
+    background-image: url(images/hill-house.jpg);
+    min-height:100%;
+}
+
+.img2{
+    background-image: url(images/boy.jpg);
+    min-height: 100%;
+}
+
+.img3{
+    background-image: url(images/field-of-flowers.jpg);
+    min-height: 100%;
+}
+.img-txt1{
+    left: 10%;
+}
+
+.img-txt-2{
+    right: 10%;
+}
+
+.img-txt-2{
+    position: absolute;
+    font-size: 94pt;
+    text-align: center;
+    top: 40%;
+    color: white;
+    max-width: 40%;
+   
+}
+
+.txt1, .txt 2{
+    height:400px;
+}
