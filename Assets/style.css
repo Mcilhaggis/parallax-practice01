@@ -5,25 +5,32 @@
     perspective: 2px;
 }
 
-.section{
+.img-section{
     position: relative;
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content:left;
-    color: white;
+    color: black;
 }
 
+section{
+    padding: 180px;
+    text-align: center;
+    line-height: 1.5;
+}
 
 .static {
     background: beige;
   }
 
-h1{
-    font-size: 7rem;
+h1, h2{
+    font-size: 5rem;
     max-width: 30%;
     margin-left: 10%;
-
+    color: white;
+}
+.h3{
+    font-size: 3rem;
 }
 
 
