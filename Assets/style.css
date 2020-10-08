@@ -24,7 +24,7 @@ section{
   }
 
 h1, h2{
-    font-size: 5rem;
+    font-size: 5vh;
     max-width: 30%;
     margin-left: 10%;
     color: white;
