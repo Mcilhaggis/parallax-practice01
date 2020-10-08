@@ -1,66 +1,58 @@
-body{
-    background-color: lightyellow;
-    margin: 0;
-}
-h2{
-    text-align: center;
-    font-size: 26pt;
-    margin-top: 50px;
-}
-.quote{
-    font-size: 20pt;
+.wrapper{
+    height:100vh;
+    overflow-x:hidden;
+    overflow-y:auto;
+    perspective: 2px;
 }
 
-p{
-    text-align: center;
-    font-size: 16pt;
-    max-width: 60%;
-    margin: 0 auto;
-    line-height: 150%;
-}
-.img1, .img2, .img3{
+.img-section{
     position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+section{
+    padding: 15%;
+    text-align: right;
+    line-height: 1.5;
+}
+
+.static {
+    background: beige;
+  }
+
+h1, h2{
+    font-size: 5rem;
+    max-width: 30%;
+    margin-left: 10%;
+    color: white;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+
+.img1, .img2, .img3{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-   
+    background-attachment: fixed; 
 }
 
-.img1{
-    background-image: url(./hill-house.jpg);
-    min-height:100%;
+.bg1{
+    background-image: url(images/hill-house.jpg);
+ 
 }
 
-.img2{
-    background-image: url(./boy.jpg);
-    min-height: 100%;
+.bg2{
+    background-image: url(images/boy.jpg);
 }
 
-.img3{
-    background-image: url(./field-of-flowers.jpg);
-    min-height: 100%;
-}
-.img-txt1{
-    left: 10%;
-}
-
-.img-txt-2{
-    right: 10%;
-}
-
-.img-txt-1, .img-txt-2{
-    position: absolute;
-    font-size: 94pt;
-    text-align: center;
-    top: 40%;
-    color: white;
-    max-width: 40%;
-   
-}
+.bg3{
+    background-image: url(images/field-of-flowers.jpg);
 
 }
 
-.txt1, .txt 2{
-    height:400px;
-}
