@@ -24,7 +24,7 @@ section{
   }
 
 h1, h2{
-    font-size: 5rem;
+    font-size: 5vh;
     max-width: 30%;
     margin-left: 10%;
     color: white;
@@ -54,5 +54,10 @@ h3{
 .bg3{
     background-image: url(images/field-of-flowers.jpg);
 
+}
+
+footer{
+    text-align: center; 
+    padding: 10px;
 }
 
